@@ -180,7 +180,7 @@ p {
   .experiences-section,
   .educations-section {
     .item {
-      margin-bottom: 30px;
+      margin-bottom: 0px;
     }
   }
   .upper-row,
@@ -247,7 +247,26 @@ p {
       margin-bottom: 30px;
     }
     .item {
-      margin-bottom: 15px;
+      margin-bottom: 10px;
+    }
+  }
+  .inprep-title {
+    font-size: 16px;
+    font-weight: 400;
+    color: $text-color;
+    margin-bottom: 1px;
+  }
+  .inprep-authors {
+    font-style: italic;
+    color: $text-grey;
+    margin-bottom: 1px;
+  }
+  .inprep-section {
+    .intro {
+      margin-bottom: 30px;
+    }
+    .item {
+      margin-bottom: 10px;
     }
   }
 }

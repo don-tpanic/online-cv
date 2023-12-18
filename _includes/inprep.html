@@ -1,0 +1,32 @@
+{% assign inprep = site.data.data.inprep %}
+{% if inprep %}
+<section class="section inprep-section">
+
+  <h2 class="section-title">
+    <span class="fa-stack fa-xs">
+      <i class="fas fa-circle fa-stack-2x"></i>
+      <i class="fas fa-file-alt fa-stack-1x fa-inverse"></i>
+    </span>
+    {{ inprep.title }}
+  </h2>
+
+  {% if inprep.intro %}
+  <div class="intro">
+    {{ inprep.intro | markdownify }}
+  </div><!--//intro-->
+  {% endif %}
+
+  {% for inprep in inprep.papers %}
+  <div class="item">
+    {% if inprep.link %}
+      <li><a href="{{ inprep.link }}">{{ inprep.title }}</a></li>
+    {% else %}
+      <li>{{ inprep.title }}</li>
+    {% endif %}
+    <div class="inprep-authors">{{ inprep.authors }}</div>
+    <div class="inprep-conference">{{ inprep.conference }}</div>
+  </div><!--//item-->
+  {% endfor %}
+
+</section><!--//section-->
+{% endif %}
