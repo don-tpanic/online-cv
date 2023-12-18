@@ -18,7 +18,7 @@ sidebar:
     # timezone: America/Cancun Timezone
     # citizenship:
     # website: blog.webjeda.com #do not add http://
-    # linkedin: alandoe
+    linkedin: xiaoliang-ken-l-7bb872211
     # xing: alandoe
     github: don-tpanic
     # telegram: # add your nickname without '@' sign
@@ -30,14 +30,14 @@ sidebar:
     # goodreads: # Number-Username, e.g. 123456-alandoe
     # pdf: http://www.africau.edu/images/default/sample.pdf
 
-    # languages:
-    #   title: Languages
-    #   info:
-    #     - idiom: Chinese (Mandarin)
-    #       level: Native
+    languages:
+      title: Languages
+      info:
+        - idiom: Chinese (Mandarin)
+          level: Native
 
-    #     - idiom: English
-    #       level: Professional
+        - idiom: English
+          level: Professional
 
     # interests:
     #   title: Interests
@@ -195,6 +195,24 @@ supervisions:
           - BSc student (Akilles Rechardt, Psychology, UCL).
 
 
+services:
+    title: Service to Field
+    info:
+      - role: Reviewer
+        time: 2021 - Present
+        company:
+        details: |
+          - ReScience C
+          - Computational Brain & Behavior
+          - Current Directions in Psychological Science
+          - Cognitive Computational Neuroscience, Oxford, 2023
+
+techs:
+    title: Technical Skills
+    info:
+      - role: Python, Tensorflow, Pytorch, NumPy, SciPy, Scikit-Learn, Matplotlib, Seaborn, Huggingface-transformers, DeepSpeed, BitsandBytes, Nilearn, Nipype
+      - role: Linux-based Graphical Processing Unit (GPU) clusters, Azure, AWC EC2.
+      - role: Git, LaTeX, UnityEngine
 
 # projects:
 #     title: Projects
