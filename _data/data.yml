@@ -127,17 +127,17 @@ publications:
     papers:
       - title: The inevitability and superfluousness of cell types in spatial cognition
         link: "https://www.biorxiv.org/content/10.1101/2024.01.10.575026v1"
-        authors:    Luo, X., Mok, R. M., & Love, B. C. (2023)
+        authors:    Luo, X., Mok, R. M., & Love, B. C. (2024)
         conference:    Under Review
       
       - title: Large language models best human experts in predicting neuroscience results
         link: "#"
-        authors:    Luo, X., Rechardt, A., ..., & Love, B. C. (2023)
+        authors:    Luo, X., Rechardt, A., ..., & Love, B. C. (2024)
         conference:    In Prep.
         
       - title: Human learning follows the dynamics of gradient descent
         link: "#"
-        authors:    Rechardt, A., Luo, X., Barry, N. D., & Love, B. C. (2023)
+        authors:    Rechardt, A., Luo, X., Barry, N. D., & Love, B. C. (2024)
         conference:    In Prep.
 
       - title: Adaptive stretching of representations across brain regions and deep learning model layers
