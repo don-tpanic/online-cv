@@ -30,14 +30,14 @@ sidebar:
     # goodreads: # Number-Username, e.g. 123456-alandoe
     # pdf: http://www.africau.edu/images/default/sample.pdf
 
-    languages:
-      title: Languages
-      info:
-        - idiom: Chinese (Mandarin)
-          level: Native
+    # languages:
+    #   title: Languages
+    #   info:
+    #     - idiom: Chinese (Mandarin)
+    #       level: Native
 
-        - idiom: English
-          level: Professional
+    #     - idiom: English
+    #       level: Professional
 
     # interests:
     #   title: Interests
@@ -97,7 +97,7 @@ experiences:
         details: |
           - Module: Foundations of Machine Learning.
             Part of MSc Knowledge, Information and Data Science; 
-            full semester teaching, lab demonstration, coursework design and marking; 52 students
+            full semester teaching, lab demonstration, coursework design and marking; 50+ students
           - Module: Machine Learning Methods.
             Part of MSc Knowledge, Information and Data Science; 
             invited lecturer for 2 weeks' lectures on Computer Vision.
@@ -113,7 +113,7 @@ certifications:
         details: |
           A fully funded PhD studentship at UCL. 
           Four year studentship and tuition fee 
-          waived at higher international fee rate (value ~£190K).
+          waived at higher international fee rate.
       - name: Dean's List Award, UCL
         start: 2017
         organization: UCL
@@ -125,6 +125,21 @@ certifications:
 publications:
     title: Publications
     papers:
+      - title: The inevitability and superfluousness of cell types in spatial cognition
+          link: "https://www.biorxiv.org/content/10.1101/2024.01.10.575026v1"
+          authors:    Luo, X., Mok, R. M., & Love, B. C. (2023)
+          conference:    Under Review
+      
+      - title: Large language models best human experts in predicting neuroscience results
+        link: "#"
+        authors:    Luo, X., Rechardt, A., ..., & Love, B. C. (2023)
+        conference:    In Prep.
+        
+      - title: Human learning follows the dynamics of gradient descent
+        link: "#"
+        authors:    Rechardt, A., Luo, X., Barry, N. D., & Love, B. C. (2023)
+        conference:    In Prep.
+
       - title: Adaptive stretching of representations across brain regions and deep learning model layers
         link: "https://www.biorxiv.org/content/10.1101/2023.12.01.569615v1"
         authors: Zhang, X. Y., Bobadilla-Suarez, S., Luo X., Lemonari, M., Brincat, S. L., Siege, M., Miller, K. E., & Love, B. C. (2023)
@@ -161,23 +176,18 @@ publications:
         conference: Bridging AI & Cognitive Science, ICLR 2020
 
 
-inprep:  # New section for preprints
-    title: Articles In Preparation
-    papers:
-      - title: The inevitability and superfluousness of cell types in spatial cognition
-        link: "#"
-        authors:    Luo, X., Mok, R. M., & Love, B. C. (2023)
-        conference:    In Prep. To submit to Cell in January 2024
+# inprep:  # New section for preprints
+#     title: Articles In Preparation
+#     papers:
+#       - title: Large language models best human experts in predicting neuroscience results
+#         link: "#"
+#         authors:    Luo, X., Rechardt, A., ..., & Love, B. C. (2023)
+#         conference:    In Prep.
         
-      - title: BrainGPT - accelerating scientific discovery with LLM assistant
-        link: "#"
-        authors:    Luo, X., Rechardt, A., ..., & Love, B. C. (2023)
-        conference:    In Prep.
-        
-      - title: Human learning follows the dynamics of gradient descent
-        link: "#"
-        authors:    Rechardt, A., Luo, X., Barry, N. D., & Love, B. C. (2023)
-        conference:    In Prep.
+#       - title: Human learning follows the dynamics of gradient descent
+#         link: "#"
+#         authors:    Rechardt, A., Luo, X., Barry, N. D., & Love, B. C. (2023)
+#         conference:    In Prep.
 
 
 supervisions:
